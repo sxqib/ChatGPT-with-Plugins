@@ -2,11 +2,14 @@
 
 ChatGPT with Plugins is an open source chat UI with plugins access. It utilizes the chatbot-ui as the base UI.
 
+## Demo:
+![demo](https://user-images.githubusercontent.com/48133047/246844909-ca71c866-5c9b-4795-b019-8998d3b43220.gif)
+
 ## Example Web Search Plugin to try:
 
 ```https://websearch.plugsugar.com/.well-known/ai-plugin.json```
 
-**Docker**
+## Docker
 
 Build locally:
 
@@ -43,7 +46,7 @@ Create a .env.local file in the root of the repo with your API Key:
 OPENAI_API_KEY=YOUR_KEY
 ```
 
-> You can set another OpenAI Host by modifying ```main/utils/app/const.ts```
+> You can set another OpenAI Host by modifying ```main/utils/app/const.ts```. For the default openai API, set it to 'https://api.openai.com'.
 
 > Additionally, if you have multiple OpenAI Organizations, you can set `OPENAI_ORGANIZATION` to specify one.
 
