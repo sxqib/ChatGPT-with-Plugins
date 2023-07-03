@@ -92,7 +92,6 @@ export const OpenAIModels: Record<OpenAIModelID, OpenAIModel> = {
     maxLength: 30000,
     tokenLimit: 10240,
   },
-};
   [OpenAIModelID.PALM_2]: {
     id: OpenAIModelID.PALM_2,
     name: 'Palm 2',
