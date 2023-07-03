@@ -1,29 +1,7 @@
-# Chatbot UI
+# ChatGPT with Plugins
 
-Chatbot UI is an open source chat UI for AI models.
+ChatGPT with Plugins is an open source chat UI with plugins access. It utilizes the chatbot-ui as the base UI.
 
-See a [demo](https://twitter.com/mckaywrigley/status/1640380021423603713?s=46&t=AowqkodyK6B4JccSOxSPew).
-
-![Chatbot UI](./public/screenshots/screenshot-0402023.jpg)
-
-## Updates
-
-Chatbot UI will be updated over time.
-
-Expect frequent improvements.
-
-**Next up:**
-
-- [ ] Sharing
-- [ ] "Bots"
-
-## Deploy
-
-**Vercel**
-
-Host your own live version of Chatbot UI with Vercel.
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fmckaywrigley%2Fchatbot-ui)
 
 **Docker**
 
@@ -54,15 +32,15 @@ git clone https://github.com/mckaywrigley/chatbot-ui.git
 npm i
 ```
 
-**3. Provide OpenAI API Key**
+**3. Provide API Key**
 
-Create a .env.local file in the root of the repo with your OpenAI API Key:
+Create a .env.local file in the root of the repo with your API Key:
 
 ```bash
 OPENAI_API_KEY=YOUR_KEY
 ```
 
-> You can set `OPENAI_API_HOST` where access to the official OpenAI host is restricted or unavailable, allowing users to configure an alternative host for their specific needs.
+> You can set another OpenAI Host by modifying ```main/utils/app/const.ts```
 
 > Additionally, if you have multiple OpenAI Organizations, you can set `OPENAI_ORGANIZATION` to specify one.
 
