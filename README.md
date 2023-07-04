@@ -2,7 +2,7 @@
 
 ChatGPT with Plugins is an open source chat UI with plugins access. It utilizes the chatbot-ui as the base UI.
 
-## Demo:
+## Plugins Demo:
 ![demo](https://user-images.githubusercontent.com/48133047/246844909-ca71c866-5c9b-4795-b019-8998d3b43220.gif)
 
 ## Example Web Search Plugins to try:
