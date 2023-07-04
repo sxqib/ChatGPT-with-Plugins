@@ -5,9 +5,10 @@ ChatGPT with Plugins is an open source chat UI with plugins access. It utilizes 
 ## Demo:
 ![demo](https://user-images.githubusercontent.com/48133047/246844909-ca71c866-5c9b-4795-b019-8998d3b43220.gif)
 
-## Example Web Search Plugin to try:
+## Example Web Search Plugins to try:
 
 ```https://websearch.plugsugar.com/.well-known/ai-plugin.json```
+```https://www.accesslinks.ai/.well-known/ai-plugin.json```
 
 ## Docker
 
