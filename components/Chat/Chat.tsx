@@ -358,18 +358,18 @@ export const Chat = memo(({ stopConversationRef }: Props) => {
       {!(apiKey || serverSideApiKeyIsSet) ? (
         <div className="mx-auto flex h-full w-[300px] flex-col justify-center space-y-6 sm:w-[600px]">
           <div className="text-center text-4xl font-bold text-black dark:text-white">
-            Welcome to Chatbot UI
+            Welcome to ChatGPT with Plugins
           </div>
           <div className="text-center text-lg text-black dark:text-white">
-            <div className="mb-8">{`Chatbot UI is an open source clone of OpenAI's ChatGPT UI.`}</div>
+            <div className="mb-8">{`ChatGPT with Plugins is an open source clone of OpenAI's ChatGPT UI, with a plugins feature so the OpenAI API can be used with some plugins.`}</div>
             <div className="mb-2 font-bold">
-              Important: Chatbot UI is 100% unaffiliated with OpenAI.
+              Important: ChatGPT with Plugins is 100% unaffiliated with OpenAI. Currently, It makes use of the Skailar API, which provides access to GPT-4 and other models for free. Get you key here: https://discord.gg/skailar
             </div>
           </div>
           <div className="text-center text-gray-500 dark:text-gray-400">
             <div className="mb-2">
-              Chatbot UI allows you to plug in your API key to use this UI with
-              their API.
+              ChatGPT with Plugins allows you to plug in your API key to use this UI with
+              any GPT API.
             </div>
             <div className="mb-2">
               It is <span className="italic">only</span> used to communicate
@@ -411,7 +411,7 @@ export const Chat = memo(({ stopConversationRef }: Props) => {
                         <Spinner size="16px" className="mx-auto" />
                       </div>
                     ) : (
-                      'Chatbot UI'
+                      'ChatGPT'
                     )}
                   </div>
 
