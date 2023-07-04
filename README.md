@@ -102,6 +102,6 @@ If you don't have an OpenAI API key, you can get one [here](https://platform.ope
 
 This project has been made possible by:
 
-> https://github.com/mckaywrigley/chatbot-ui For the base UI of the project
+> https://github.com/mckaywrigley/chatbot-ui For the base UI of the project.
 
-> https://github.com/devnjw For the plugin implementation and functionality
+> https://github.com/devnjw For the plugin implementation and functionality.
