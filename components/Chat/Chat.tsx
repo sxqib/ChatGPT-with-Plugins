@@ -363,7 +363,7 @@ export const Chat = memo(({ stopConversationRef }: Props) => {
           <div className="text-center text-lg text-black dark:text-white">
             <div className="mb-8">{`ChatGPT with Plugins is an open source clone of OpenAI's ChatGPT UI, with a plugins feature so the OpenAI API can be used with some plugins.`}</div>
             <div className="mb-2 font-bold">
-              Important: ChatGPT with Plugins is 100% unaffiliated with OpenAI. Currently, It makes use of the Skailar API, which provides access to GPT-4 and other models for free. Get you key here: https://discord.gg/skailar
+              Important: ChatGPT with Plugins is 100% unaffiliated with OpenAI.
             </div>
           </div>
           <div className="text-center text-gray-500 dark:text-gray-400">
