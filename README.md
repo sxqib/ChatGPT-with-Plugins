@@ -12,15 +12,17 @@ Get you Skailar API key here: https://discord.gg/skailar
 ## Plugins Demo:
 ![demo](https://user-images.githubusercontent.com/48133047/246844909-ca71c866-5c9b-4795-b019-8998d3b43220.gif)
 
-## Example Web Search Plugins to try:
+## Example Plugins to try:
 
 ```https://websearch.plugsugar.com/.well-known/ai-plugin.json```
 
 ```https://www.accesslinks.ai/.well-known/ai-plugin.json```
 
 ## Note:
-> Currently, the only plugin url form it can handle is the one that ends with ```/.well-known/ai-plugin.json```.
+> Currently, the only plugin url form it can handle is the one that ends with ```/.well-known/ai-plugin.json``` and do not require authentication.
+
 > Even if you select more than one plugin, only one plugin is used for making a response.
+
 > Currently, all the plugins you selected are shown upon a response.
 
 ## Docker
