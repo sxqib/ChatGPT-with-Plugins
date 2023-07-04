@@ -19,6 +19,7 @@ Get you Skailar API key here: https://discord.gg/skailar
 ```https://www.accesslinks.ai/.well-known/ai-plugin.json```
 
 ## Note:
+
 > Currently, the only plugin url form it can handle is the one that ends with ```/.well-known/ai-plugin.json``` and do not require authentication.
 
 > Even if you select more than one plugin, only one plugin is used for making a response.
