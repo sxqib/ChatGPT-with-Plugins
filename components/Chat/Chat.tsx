@@ -377,18 +377,18 @@ export const Chat = memo(({ stopConversationRef }: Props) => {
             </div>
             <div className="mb-2">
               {t(
-                'Please set your OpenAI API key in the bottom left of the sidebar.',
+                'Please set your Skailar API key in the bottom left of the sidebar.',
               )}
             </div>
             <div>
-              {t("If you don't have an OpenAI API key, you can get one here: ")}
+              {t("If you don't have an Skailar API key, you can get one here: ")}
               <a
-                href="https://platform.openai.com/account/api-keys"
+                href="https://discord.gg/skailar"
                 target="_blank"
                 rel="noreferrer"
                 className="text-blue-500 hover:underline"
               >
-                openai.com
+                discord.gg/skailar
               </a>
             </div>
           </div>
@@ -401,6 +401,7 @@ export const Chat = memo(({ stopConversationRef }: Props) => {
             className="max-h-full overflow-x-hidden"
             ref={chatContainerRef}
             onScroll={handleScroll}
+            style={{ paddingBottom: 150 }}
           >
             {selectedConversation?.messages.length === 0 ? (
               <>
