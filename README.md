@@ -63,7 +63,7 @@ Create a .env.local file in the root of the repo with your API Key:
 OPENAI_API_KEY=YOUR_KEY
 ```
 
-> You can set another OpenAI Host by modifying ```main/utils/app/const.ts```. For the default openai API, set it to 'https://api.openai.com'.
+> You can set another OpenAI Host by modifying ```main/utils/app/const.ts```. By default, it is set to 'https://api.openai.com'.
 
 > Additionally, if you have multiple OpenAI Organizations, you can set `OPENAI_ORGANIZATION` to specify one.
 
