@@ -5,9 +5,9 @@ ChatGPT with Plugins is an open source chat UI with plugins access. It utilizes 
 Test it with your OpenAI API key at: https://chat-gpt-with-plugins.vercel.app/
 
 
-If you don't have access to the OpenAI API, you can test it for free using the Skailar API here: https://gpt-with-plugins.vercel.app/
+If you don't have access to the OpenAI API, you can test it for free using the ai4all API here: https://ai-4-all.vercel.app
 
-Get you Skailar API key here: https://discord.gg/skailar
+Get you ai4all API key here: https://ai4all.saq1bb.repl.co
 
 ## Plugins Demo:
 ![demo](https://user-images.githubusercontent.com/48133047/246844909-ca71c866-5c9b-4795-b019-8998d3b43220.gif)
