@@ -1,6 +1,3 @@
-## Note: Curently, ai4all is not working, I recommend using another API provider such as [NovaAI](https://discord.gg/2cqdGTSGtB)
-
-
 # ChatGPT with Plugins
 
 ChatGPT with Plugins is an open source chat UI with plugins access. It utilizes the chatbot-ui as the base UI.
